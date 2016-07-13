@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Pathway_Website(1)", "http://localhost:50526", "{B5384167-6F41-431C-9084-37DBB72EE613}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{5fa85dee-86f4-4b03-be7b-920a9a34ec21}|Pathway_System.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50526"
+		Debug.AspNetCompiler.PhysicalPath = "Pathway_Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50526\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50526"
+		Release.AspNetCompiler.PhysicalPath = "Pathway_Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50526\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Pathway_Website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathway_System", "Pathway_System\Pathway_System.csproj", "{5FA85DEE-86F4-4B03-BE7B-920A9A34EC21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5384167-6F41-431C-9084-37DBB72EE613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5384167-6F41-431C-9084-37DBB72EE613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5384167-6F41-431C-9084-37DBB72EE613}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5384167-6F41-431C-9084-37DBB72EE613}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5FA85DEE-86F4-4B03-BE7B-920A9A34EC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA85DEE-86F4-4B03-BE7B-920A9A34EC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA85DEE-86F4-4B03-BE7B-920A9A34EC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA85DEE-86F4-4B03-BE7B-920A9A34EC21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
